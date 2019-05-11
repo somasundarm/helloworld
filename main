@@ -1,14 +1,13 @@
 node {
-    stage('Hello') 
+stage('Hello') 
     {
         echo 'Hello World'
     } 
-    stage('Do Something')
+ stage('Do Something')
     {
         echo 'Doing Something'
     }
-    stage('Done') 
-    
+stage('Done')    
     {
         echo 'All Done'
     }
